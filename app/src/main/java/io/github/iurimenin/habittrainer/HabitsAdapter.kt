@@ -16,7 +16,9 @@ class HabitsAdapter(private val habits : List<Habit>) :
     class HabitViewHolder(val view : View) : RecyclerView.ViewHolder(view)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HabitViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.single_card, parent)
+        val view = LayoutInflater
+                .from(parent.context)
+                .inflate(R.layout.single_card, parent, false)
         return HabitViewHolder(view)
     }
 
