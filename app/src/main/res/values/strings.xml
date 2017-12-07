@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HabitTrainer</string>
+    <string name="habit_icon">Habit icon</string>
+    <string name="drink_water">Drink water</string>
+    <string name="drink_water_description">A refreshind glass of water gets you hydrated</string>
+    <string name="begin_new_habit">Begin new habit…</string>
+    <string name="eat_an_apple">Eat an apple</string>
+    <string name="an_apple_description">An apple a day keeps the doctor away</string>
+    <string name="choose_image">Choose image…</string>
+    <string name="selected_image">Selected image</string>
+    <string name="save">Save</string>
+    <string name="choose_image_habit">Choose image for habit</string>
+    <string name="error_title_description_missing">Your habit needs an engaging title and description.</string>
+    <string name="error_image_missing">Add a motivating picture to your habit.</string>
+    <string name="habit_save_db_error">Habit could not be stored... let\'s not make this a habit.</string>
+</resources>
